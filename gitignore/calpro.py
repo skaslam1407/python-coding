@@ -41,14 +41,14 @@ try:
     elif opt == '/':
         print(f"Division of {n1} and {n2} = {n1/n2}")
     else:
-        print("Invalid operation selected!")
+        print("❌ Invalid operation selected!")
 
 except ValueError:
-    print("Please enter numbers only!")
+    print("❌ Please enter numbers only!")
 
 except ZeroDivisionError:
-    print("Cannot divide by zero!")
+    print("❌ Cannot divide by zero!")
 
 except Exception as e:
-    print("Something went wrong:", e)
+    print("⚠️ Something went wrong:", e)
 

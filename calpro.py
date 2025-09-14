@@ -44,7 +44,7 @@ try:
         print("Invalid operation selected!")
 
 except ValueError:
-    print("Please enter numbers only mmmm!")
+    print("Please enter numbers only")
 
 except ZeroDivisionError:
     print("Cannot divide by zero!")
